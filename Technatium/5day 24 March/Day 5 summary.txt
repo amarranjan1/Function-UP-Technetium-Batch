@@ -1,0 +1,9 @@
+On day 5 of the FunctionUp bootcamp, I learned about functions and adding/returning values in JavaScript. I also built a template to convert Rupees to Dollars and learned about the concepts of mouseover and onclick in JavaScript.
+
+Functions are blocks of code that can be called upon multiple times, allowing for more efficient and reusable code. Adding values involves taking two or more variables and adding them together to create a new value. Returning values involves using the return keyword to return a value from a function to the code that called it.
+
+In addition, I built a template to convert Rupees to Dollars using JavaScript. This involved using a function to take the Rupees amount as an input and return the corresponding value in Dollars. This can be a useful tool for anyone dealing with international currency conversions.
+
+Finally, I learned about the concepts of mouseover and onclick in JavaScript. Mouseover is an event that occurs when the mouse pointer is moved over an element, while onclick is an event that occurs when an element is clicked. These events can be used to trigger functions or other actions, allowing for more interactive and responsive websites.
+
+Overall, day 5 of the FunctionUp bootcamp was focused on enhancing my understanding of functions and values in JavaScript, as well as introducing me to useful concepts such as currency conversion and event handling.

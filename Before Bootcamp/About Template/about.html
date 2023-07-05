@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>About Me</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<style type="text/css">
+
+    
+        .container {
+          display: flex;
+          align-items: center;
+          justify-content: center
+        
+        }
+        img {
+          max-width: 100%
+        }
+        .image2 {
+        margin-top: 10px;
+        flex-basis: 25%;
+        order: 2;
+        }
+        .text {
+            order: 1;
+          color: #070707;
+        
+          font: bold 20px "Fira Sans", serif;
+        }
+        @media only screen and (max-width: 900px) {
+            .container {
+              display: grid;
+              grid-template-columns: 1fr;
+            }
+            .image2 {
+                margin-top: 0px;
+                flex-basis: 25%;
+                order: 2;
+                }
+                .text {
+                order: 1;
+                color: #070707;
+                font: bold 20px "Fira Sans", serif;
+                }
+            img {
+                max-width: 50%
+              }
+
+        }
+*
+{
+margin: 0;
+padding: 0;
+transition: 0.5s;
+}
+body
+{
+width: 100%;
+height: 100%;
+background-image: url('images/back.jpg');
+background-size: 100% 100%;
+text-align: center;
+}
+.image
+{
+width: 180px;
+padding: 10px;
+border-radius: 50%;
+background-color: #1f0141;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+h1
+{
+font-size: 55px;
+font-family: sans-serif;
+padding-top: 10px;
+}
+
+p
+{
+line-height: 30px;
+font-size: 16px;
+font-family: sans-serif;
+color: #fff;
+}
+.intro{
+  
+    background-color: #aa98d8e8;
+    border-radius: 1%;
+    padding: 25px;
+    background-position: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    
+}
+.icon ion-icon
+{
+font-size: 25px;
+padding: 10px;
+color: #1f0141;
+border-radius: 50%;
+background-color: #ffffff;
+margin: 20px 5px;
+cursor: pointer;
+}
+.icon ion-icon:hover
+{
+background-color: #1f0141;
+color: #fff;
+}
+
+.btn
+{
+width: 250px;
+height: 55px;
+background-color: transparent;
+border: 2px solid #1f0141;
+font-size: 18px;
+color: #1f0141;
+border-radius: 50px;
+cursor: pointer;
+font-weight: bold;
+margin-bottom: 10px;
+}
+.btn:hover
+{
+background-color: #1f0141;
+color: #fff;
+margin-bottom: 50px;
+}
+</style>
+<body>
+
+<h1>About Me</h1>
+<img src="images/image.jpg" class="image">
+
+
+
+
+<div class="intro">
+    <div class="container">
+       
+        <div class="text">
+          <h2>Full Stack Developer Trainee at</h2>
+        </div>
+
+        <div class="image2">
+            <img src="images/function.png">
+          </div>
+      </div>
+
+<p>I am Amar Ranjan a computer science engineering student interested in Full Stack development. As a student of Computer Science, I am fascinated by the extensive impact computers can have in solving real-world problems. I am specially interested in the fields of software development, among other areas of computer science and engineering.</p>
+
+<div class="icon" >
+    <a href="https://www.linkedin.com/in/amarranjan/"><ion-icon name="logo-linkedin"></ion-icon></a>
+    <a href="https://github.com/amarranjan1/"><ion-icon name="logo-github"></ion-icon></a>
+    <a href="https://www.facebook.com/amarranjan0/"><ion-icon name="logo-facebook"></ion-icon></a>
+</div>
+
+</div>
+
+<div >
+
+    <a href="mailto:amarranjan0@gmail.com">
+        <button class="btn" >Get In Touch</button>
+        </a>
+</div>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+</body>
+</html>

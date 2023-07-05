@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+    function myFunction() {
+// CODE WILL GO HERE
+
+//when mouseover the div, element h1 print hi
+myDiv.onmouseover = function (event) {
+    document.getElementById("h1Id").innerHTML = "hi"
+  };
+  
+  //when mouseout the div, they pass null value to h1
+myDiv.onmouseout = function (event) {
+    document.getElementById("h1Id").innerHTML= null
+  };
+  
+
+    }
+    
+</script>
+
+<p>In this example, the yelllow div will get a new Hi every time you mouse over it:</p>
+
+<div style="padding:50px; background:yellow;" onmouseover="myFunction()" id="myDiv"> 
+<h1 id="h1Id"></h1>    
+</div>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dad Jokes</title>
+
+  </head>
+  
+<style>
+body{
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+}
+    
+    .container{
+    align-items: center;
+    padding: 10px;
+    background-color:#6a6fd8;
+   
+    }
+    .card{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 25px;
+        border-radius: 5px;
+        background: white;
+    }
+    h3{
+        color: #808080;
+        font-size: 12px;
+        margin-bottom: 25px;
+        font-family: sans-serif;
+    }
+    #joke{
+        display: flex;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    #jokeBtn{
+        background-color: #a36ad9;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 25px;
+        font-family: sans-serif;
+        
+    }
+
+</style>
+
+  <body>
+     <div class="container">
+     <div class="card">
+      <h3>Don't Laugh Challenge</h3>
+      <div id="joke" class="joke">What is the hardest part about sky diving?<br> The ground.</div>
+      <button id="jokeBtn" class="btn">Get Another Joke</button>
+    </div>  
+    </div>
+
+
+    
+  </body>
+</html>
